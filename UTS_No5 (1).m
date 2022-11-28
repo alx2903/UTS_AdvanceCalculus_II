@@ -18,10 +18,10 @@ stem(n, x(2-n)); grid on;
 
 figure(2)
 subplot(2,1,1)
-plot(n, ge); grid on;
+stem(n, ge); grid on;
 
 subplot(2,1,2)
-plot(n, go); grid on;
+stem(n, go); grid on;
 
 function x = x(n)
     x1 = 1; x2 = 0.5;
